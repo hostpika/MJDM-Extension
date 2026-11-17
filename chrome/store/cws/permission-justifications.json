@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "downloads": {
+      "justification": "Required to detect when the user starts a download, pause the default browser download, and hand off the request to the local MJDM turbo engine. If the desktop app is offline, the download is immediately resumed in the browser."
+    },
+    "nativeMessaging": {
+      "justification": "Required to communicate with the local mjdm-nmhost companion binary via stdio IPC on localhost. No external network connections are made."
+    },
+    "cookies": {
+      "justification": "Required to pass relevant session authentication cookies to the local download engine for the specific file being downloaded, preventing HTTP 401/403 errors on private/gated downloads."
+    },
+    "storage": {
+      "justification": "Used exclusively to store user-configured extension preferences, such as domain bypass lists, interception toggles, and minimum file size thresholds."
+    },
+    "contextMenus": {
+      "justification": "Allows users to right-click on any hyperlink, image, or media asset and choose 'Download with MJDM' or 'Download All Links with MJDM'."
+    },
+    "scripting": {
+      "justification": "Used to inject the client-side link grabber dialog and floating video sniffer widget when the user requests media detection on a webpage."
+    },
+    "webRequest": {
+      "justification": "Used in Firefox or supported browsers to inspect response headers (Content-Disposition, Content-Type) to identify downloadable file streams before the browser initiates a full-page navigation."
+    }
+  },
+  "host_permissions": {
+    "<all_urls>": {
+      "justification": "Necessary because the user can download files from any website across the open internet. The extension does not inspect web traffic except when a file download is initiated by the user."
+    }
+  }
+}

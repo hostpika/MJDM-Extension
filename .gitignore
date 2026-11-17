@@ -1,0 +1,29 @@
+# Dependencies and build output
+node_modules/
+dist/
+build/
+.turbo/
+.next/
+.output/
+.wxt/
+coverage/
+*.tsbuildinfo
+
+# Secrets (never commit real values; use .env.example as the template)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local runtime state
+/config/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp

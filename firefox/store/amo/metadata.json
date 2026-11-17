@@ -1,0 +1,10 @@
+{
+  "name": "MJDM — High-Performance Download Manager Integration",
+  "slug": "mjdm-download-manager",
+  "version": "1.0.0",
+  "categories": ["download-management", "photos-music-videos"],
+  "tags": ["download", "downloader", "accelerator", "fast", "manager"],
+  "homepage": "https://mjdm.app",
+  "support_url": "https://mjdm.app/docs",
+  "developer_comments": "MJDM browser integration for Mozilla Firefox. Accelerate downloads using up to 32 parallel streams with the companion native desktop application."
+}

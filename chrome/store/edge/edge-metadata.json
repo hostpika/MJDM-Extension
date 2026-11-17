@@ -1,0 +1,13 @@
+{
+  "name": "MJDM — High-Performance Download Manager Integration",
+  "short_name": "MJDM Integration",
+  "version": "1.0.0",
+  "category": "productivity",
+  "support_url": "https://mjdm.app/docs",
+  "privacy_url": "https://mjdm.app/privacy",
+  "website_url": "https://mjdm.app",
+  "store_presence": {
+    "short_description": "Official Microsoft Edge integration for MJDM native download accelerator.",
+    "description": "Seamlessly forward downloads from Microsoft Edge to your local MJDM desktop application for up to 32-stream multi-segment acceleration.\n\nFeatures:\n- Automatic link interception\n- Media sniffer for web video and audio\n- Page link batch extractor\n- Instant fail-open fallback\n- 100% private and zero external telemetry"
+  }
+}

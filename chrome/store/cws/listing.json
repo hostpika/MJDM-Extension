@@ -1,0 +1,18 @@
+{
+  "name": "MJDM — High-Performance Download Manager Integration",
+  "short_name": "MJDM Integration",
+  "version": "1.0.0",
+  "category": "productivity/workflow",
+  "default_locale": "en",
+  "summary": {
+    "en": "Fast, seamless download interception and handoff to the native MJDM desktop download manager.",
+    "bn": "MJDM ডেস্কটপ ডাউনলোড ম্যানেজারে সরাসরি ও দ্রুত ব্রাউজার ডাউনলোড হস্তান্তরের অফিসিয়াল এক্সটেনশন।"
+  },
+  "description": {
+    "en": "MJDM Browser Integration connects Google Chrome with the native MJDM desktop download manager application installed on your computer.\n\nKey Capabilities:\n- Instant Interception: Automatically captures download links and forwards them to MJDM for up to 32-stream turbo multi-segment acceleration.\n- Media Sniffer Panel: Detects downloadable video and audio streams with selectable resolutions.\n- Single-Click Batch Grabber: Capture all hyperlinks or downloadable assets on a webpage using Ctrl+Shift+D.\n- Fail-Open Architecture: If the desktop app is not running, browser downloads proceed normally without delay.\n- Total Privacy: No tracking, no browsing history collection, no analytics, and zero external network calls.\n\nRequirements:\nRequires the MJDM desktop application installed on Windows or Linux (https://mjdm.app).",
+    "bn": "MJDM ব্রাউজার ইন্টিগ্রেশন আপনার গুগল ক্রোমের সাথে কম্পিউটারে ইনস্টল করা নেটিভ MJDM ডেস্কটপ অ্যাপের সংযোগ রক্ষা করে।\n\nপ্রধান সুবিধাসমূহ:\n- তাৎক্ষণিক ইন্টারসেপশন: ব্রাউজারের ডাউনলোড লিঙ্ক সরাসরি MJDM-এ পাঠিয়ে ৩২-স্ট্রিম টার্বো গতিতে ডাউনলোড নিশ্চিত করে।\n- মিডিয়া স্নিফার: ওয়েব পেজের ভিডিও ও অডিও স্ট্রিম শনাক্ত করে রেজোলিউশন নির্বাচনের সুযোগ দেয়।\n- পেজ গ্র্যাবার: পেজের সব লিঙ্ক একসাথে সংগ্রহ করতে Ctrl+Shift+D শর্টকাট।\n- ফেইল-ওপেন নিশ্চয়তা: ডেস্কটপ অ্যাপ বন্ধ থাকলে ব্রাউজার নিজস্ব উপায়ে সাধারণ গতিতে ফাইল নামিয়ে নেবে।\n- শতভাগ গোপনীয়তা: কোনো ট্র্যাকিং নেই, ব্রাউজিং হিস্টোরি সংগ্রহ করা হয় না এবং কোনো বহিরাগত সার্ভারে ডেটা যায় না।\n\nপ্রয়োজনীয়তা:\nউইন্ডোজ বা লিনাক্সে MJDM ডেস্কটপ অ্যাপ্লিকেশন ইনস্টল থাকা আবশ্যক (https://mjdm.app)।"
+  },
+  "website_url": "https://mjdm.app",
+  "support_url": "https://mjdm.app/docs",
+  "privacy_policy_url": "https://mjdm.app/privacy"
+}
